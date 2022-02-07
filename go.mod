@@ -1,21 +1,25 @@
 module github.com/juju/featureflag
 
-go 1.14
+go 1.17
 
 require (
-	github.com/juju/clock v0.0.0-20190205081909-9c5c9712527c // indirect
-	github.com/juju/collections v0.0.0-20180717171555-9be91dc79b7c
-	github.com/juju/errors v0.0.0-20200330140219-3fe23663418f // indirect
-	github.com/juju/loggo v0.0.0-20190526231331-6e530bcce5d8
+	github.com/juju/collections v0.0.0-20220203020748-febd7cad8a7a
+	github.com/juju/loggo v0.0.0-20210728185423-eebad3a902c4
+	github.com/juju/testing v0.0.0-20220203020004-a0ff61f03494
+	golang.org/x/sys v0.0.0-20210806184541-e5e7981a1069
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
+)
+
+require (
+	github.com/juju/clock v0.0.0-20220203021603-d9deb868a28a // indirect
+	github.com/juju/errors v0.0.0-20220203013757-bd733f3c86b9 // indirect
+	github.com/juju/mgo/v2 v2.0.0-20210302023703-70d5d206e208 // indirect
 	github.com/juju/retry v0.0.0-20180821225755-9058e192b216 // indirect
-	github.com/juju/testing v0.0.0-20191001232224-ce9dec17d28b
-	github.com/juju/utils v0.0.0-20200423035217-b0a7da72a5fa // indirect
-	github.com/juju/version v0.0.0-20191219164919-81c1be00b9a6 // indirect
-	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
-	golang.org/x/crypto v0.0.0-20200422194213-44a606286825 // indirect
-	golang.org/x/net v0.0.0-20200421231249-e086a090c8fd // indirect
-	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
-	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
-	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
-	gopkg.in/yaml.v2 v2.2.8 // indirect
+	github.com/juju/utils/v3 v3.0.0-20220203023959-c3fbc78a33b0 // indirect
+	github.com/juju/version/v2 v2.0.0-20211007103408-2e8da085dc23 // indirect
+	github.com/kr/pretty v0.2.1 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3 // indirect
+	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
